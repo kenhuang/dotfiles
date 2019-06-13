@@ -20,7 +20,6 @@ brew 'yarn'
 # Apps from "Web"
 cask '1password'
 cask 'android-platform-tools'
-cask 'contraste'
 cask 'docker'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
