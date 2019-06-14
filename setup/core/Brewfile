@@ -32,3 +32,5 @@ cask 'spotify'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'visual-studio'
+
