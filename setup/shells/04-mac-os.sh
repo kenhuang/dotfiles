@@ -31,6 +31,11 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# Set the Default screenshots directory
+
+mkdir -p ~/Documents/screenshots
+defaults write com.apple..screencapture location ~/Documents/screenshots
+
 for app in "Activity Monitor" \
     "cfprefsd" \
     "Dock" \
