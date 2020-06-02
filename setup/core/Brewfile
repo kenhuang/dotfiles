@@ -1,7 +1,7 @@
 # Sources
 tap 'buo/cask-upgrade'
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 tap 'dart-lang/dart'
@@ -14,10 +14,12 @@ brew 'git-lfs'
 brew 'git'
 brew 'node'
 brew 'python3'
-#brew 'tmux'
+brew 'tmux'
 brew 'yarn'
 brew 'htop'
 brew 'source-to-image'
+brew 'jq'
+brew 'httpie'
 
 
 # Apps from "Web"
@@ -35,3 +37,13 @@ cask 'spotify'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'spectacle'
+
+# Others
+# aws cli install
+#curl -O https://bootstrap.pypa.io/get-pip.py
+#python3 get-pip.py --user
+#pip3 install awscli --upgrade --user
+
+# Dev
+brew 'watchman'
+brew 'cocoapods'
