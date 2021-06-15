@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/ken/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -103,9 +103,6 @@ dkr() {
   docker ps --all --quiet --filter status=running | xargs docker kill
   docker ps --all --quiet --filter status=exited | xargs docker rm
 }
-
-# Flutter
-export PATH=$PATH:/Users/ken/development/flutter/bin
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
